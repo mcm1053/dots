@@ -1,0 +1,9 @@
+# ~/.config/zathura/zathurc
+
+##############
+## Settings ##
+##############
+# Invert colors
+set recolor true
+# Copy to clipboard
+set selection-clipboard clipboard
