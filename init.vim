@@ -3,8 +3,9 @@
 """"""""""""""
 "" Settings 
 """"""""""""""
+set expandtab             " Tabs as spaces
 set number                " Show line numbers
-set cursorline						" Show cursorline
+set cursorline            " Show cursorline
 let mapleader=" "         " Set mapleader to space
 set clipboard=unnamedplus " Copy to clipboard
 
@@ -22,11 +23,11 @@ Plug 'tell-k/vim-autopep8'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
-set termguicolors												     " Needed for colorscheme
-colorscheme apprentice											 " Set colorscheme to apprentice
+set termguicolors                            " Needed for colorscheme
+colorscheme apprentice                       " Set colorscheme to apprentice
 let g:airline#extensions#tabline#enabled = 1 " Show bufferline
-let g:ranger_map_keys = 0										 " Remove default ranger binding
-let g:autopep8_disable_show_diff=1					 " Disable diff window for autopep8
+let g:ranger_map_keys = 0                    " Remove default ranger binding
+let g:autopep8_disable_show_diff=1           " Disable diff window for autopep8
 " Space+r - open ranger
 map <leader>r :Ranger<CR>                    
 
